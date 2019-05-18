@@ -29,6 +29,32 @@ body {
 	color: #ababab;
 }
 
+.lang-container {
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px;
+}
+
+.lang-btn {
+	border: 1px solid #fff;
+	background-color: #39383a;
+	border-radius: 50px;
+	padding: 4px 15px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+
+.lang-btn:first-child {
+	margin-right: 10px;
+}
+
+.lang-btn:hover {
+	color: #39383a;
+	background-color: #fff;
+	transition: all 0.3s;
+}
+
 .profile-photo {
 	height: 230px;
 	background-image: url(../img/profile-photo.jpg);
@@ -251,7 +277,7 @@ address {
 .list-item:before {
 	content: "";
 	position: absolute;
-	top: 3px;
+	top: 5px;
 	left: 0;
 	width: 9px;
 	height: 9px;
@@ -333,4 +359,22 @@ address {
 
 .heading-skills__addition {
 	margin-top: 50px;
+}
+
+.skill-list__additionUK {
+	font-size: 16px;
+}
+
+.list-item__titleUK {
+	font-size: 16px;
+}
+.list-item__dateUK {
+	font-size: 13px;
+}
+.list-item__textUK {
+	font-size: 15px;
+}
+
+.profile-textUK {
+	font-size: 15px;
 }
