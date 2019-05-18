@@ -34,7 +34,7 @@ body {
 	background-image: url(../img/profile-photo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: center top;
 }
 
 .profile-info {
@@ -251,7 +251,7 @@ address {
 .list-item:before {
 	content: "";
 	position: absolute;
-	top: 5px;
+	top: 3px;
 	left: 0;
 	width: 9px;
 	height: 9px;
